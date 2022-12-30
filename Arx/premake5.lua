@@ -6,6 +6,9 @@ project "Arx"
 
     targetdir "bin/%{cfg.buildcfg}"
 
+	pchheader "axpch.hpp"
+	pchsource "axpch.cpp"
+
     files
 	{
 		"src/**.h",
@@ -24,6 +27,12 @@ project "Arx"
 		"vendor/spdlog/include",
 		"Arx/vendor/spdlog/include", 
         "Arx/vendor/glfw/include",
+	}
+
+	links
+	{
+		"glfw",
+		"glad"
 	}
 
     filter "configurations:Debug"
