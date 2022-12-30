@@ -2,7 +2,6 @@ project "Sandbox"
 	kind "ConsoleApp"
 	language "C++"
 	cppdialect "C++17"
-    architecture "universal"
 
     targetdir "bin/%{cfg.buildcfg}"
 

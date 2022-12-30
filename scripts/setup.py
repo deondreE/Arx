@@ -26,12 +26,12 @@ match (system):
     case 'arm64':
         systemName = 'macos'
         print(Fore.RED + systemName)
-        write_premake_file('include "/premake5.lua"')
-        os.system("premake5 xcode4")
+        write_premake_file('include "../"')
+        os.system("premake5 gmake2")
     case 'x64':
         systemName = 'windows'
         print(Fore.Green + systemName)
-        write_premake_file('include "/premake5.lua"')
+        write_premake_file('include "../"')
         os.system("premake5 vs2022")
     case 'x32':
         print('We dont support this versioning!')

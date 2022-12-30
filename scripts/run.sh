@@ -1,4 +1,4 @@
 #!/bin/bash
 make
-cd ../bin/Debug
-./Arx
+cd ../Sandbox/bin/Debug
+./Sandbox

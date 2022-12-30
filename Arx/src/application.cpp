@@ -1,8 +1,20 @@
 #include "application.hpp"
 
 namespace Arx {
-    void Application::Run() {
-        while (true) {
+    Application::Application()
+    {
+
+    }
+    
+    Application::~Application() 
+    {
+        
+    }
+
+    void Application::Run() 
+    {
+        while (true)
+        {
         };
     }
 }
