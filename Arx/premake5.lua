@@ -22,6 +22,8 @@ project "Arx"
 	{
 		"src",
 		"vendor/spdlog/include",
+		"Arx/vendor/spdlog/include", 
+        "Arx/vendor/glfw/include",
 	}
 
     filter "configurations:Debug"

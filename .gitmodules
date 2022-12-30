@@ -1,3 +1,9 @@
 [submodule "spdlog"]
 	path = Arx/vendor/spdlog
 	url = https://github.com/gabime/spdlog.git
+[submodule "glm"]
+	path = Arx/vendor/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "glfw"]
+	path = glfw
+	url = https://github.com/glfw/glfw.git
