@@ -1,3 +1,5 @@
+require "vendor/cmake"
+
 workspace "Arx"
     architecture "universal"
     startproject "Sandbox"
