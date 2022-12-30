@@ -1,1 +1,1 @@
-include "../premake/"
+include "/premake5.lua"

@@ -1,0 +1,7 @@
+# source
+/bin
+/obj
+
+# Project Files
+Makefile
+*.make
