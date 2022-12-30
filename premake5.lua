@@ -20,7 +20,7 @@ workspace "Arx"
 
     includedirs 
     { 
-        "Arx/vendor/glm/glm",
+        "Arx/vendor/glm/",
         "Arx/vendor/spdlog/include", 
         "Arx/vendor/glfw/include",
         "Arx/src" 
