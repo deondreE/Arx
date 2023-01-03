@@ -23,6 +23,7 @@ workspace "Arx"
         "Arx/vendor/glm/",
         "Arx/vendor/spdlog/include", 
         "Arx/vendor/glfw/include",
+        "Arx/vendor/imgui/",
         "Arx/src" 
     }
 

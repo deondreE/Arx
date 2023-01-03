@@ -27,6 +27,6 @@
 
 // #include "Hazel/Debug/Instrumentor.h"
 
-#ifdef HZ_PLATFORM_WINDOWS
+#ifdef AX_PLATFORM_WINDOWS
     #include <Windows.h>
 #endif

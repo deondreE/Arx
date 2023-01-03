@@ -27,14 +27,16 @@ project "Arx"
 		"vendor/spdlog/include",
 		"Arx/vendor/spdlog/include", 
         "Arx/vendor/glfw/include",
-		"Arx/vendor/glm"
+		"Arx/vendor/glm",
+		"Arx/vendor/imgui"
 	}
 
 	links
 	{
 		"glfw",
 		"glad",
-		"glm"
+		"glm",
+		"imgui"
 	}
 
     filter "configurations:Debug"

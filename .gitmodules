@@ -10,3 +10,6 @@
 [submodule "vendor/cmake"]
 	path = vendor/cmake
 	url = https://github.com/Enhex/premake-cmake.git
+[submodule "Arx/vendor/imgui"]
+	path = Arx/vendor/imgui
+	url = https://github.com/TheCherno/imgui.git
